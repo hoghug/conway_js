@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <!--<script src="js/scripts.js"></script>-->
+    <script src="js/ui-scripts.js"></script>
+    <title>Conway's Game of Life</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conway's Game of Life</h1>
+      <div class="row" id="grid-builder">
+
+        <div class="col-lg-12">
+          <div class="col-lg-5"></div>
+          <div class="col-lg-2">
+            <div class="form-group">
+              <label>Define your grid
+                <input id="grid-size-input" type="number" value="3" min="3" max="100" class="form-control">
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12" id="conway-grid"></div>
+        <button id="start-game" class="btn btn-primary">Start</button>
+      </div>
+
+
+    </div>
+  </body>
+</html>
