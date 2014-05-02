@@ -14,7 +14,7 @@ html, body, div, img, span, h1, h2, h3, h4, p, ol, ul, li {
 }
 
 body {
-  background-color: black;
+  background: url(magnus-2051.png);
   font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -24,8 +24,9 @@ body {
 .container {
   width: 960px;
   margin: 30px auto;
-  padding: 20px;
-  background-color: white;
+  padding: 20px 20px 30px 20px;
+  background-color: #BAD6F3;
+  color: #06082B;
 }
 
 h1 {
@@ -34,20 +35,31 @@ h1 {
   margin:15px 0;
 }
 
+#conway-grid {
+  margin: 0 auto;
+}
+
 .conway-cell {
   float:left;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #506D7D;
-  margin: 2px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #06082B;
+  margin: 1px;
   cursor: pointer;
+  background-color: #F1F1F3;
+}
+
+.prev-live-cell {
+  background-color: #BCB2EC;
 }
 
 .live-cell {
-  background-color: #94CCB9;
+  background-color: #A65B96 !important;
 }
 
-#start-game {
+
+
+#start-game, #reset-game {
   display: none;
 }
 
