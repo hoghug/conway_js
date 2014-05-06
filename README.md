@@ -1,7 +1,7 @@
-conway_js
-=========
-# Conway's Game of Life using jQuery
+Conway's Game of Life
+=======================
+- Conway's Game of Life using JS object and jQuery
 
-# User can define the size of the grid
+- User can define the size of the grid
 
-# User can select the cells to ostart live for the simulation.
+- User selects the cells to ostart live for the simulation.
